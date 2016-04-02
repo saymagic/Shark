@@ -9,6 +9,7 @@ WORKDIR /usr/local/app
 
 RUN apt-get update && \  
       apt-get install -y git \
+                       curl \
                        nginx \
                        python \
                        python-dev \
