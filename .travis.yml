@@ -5,7 +5,7 @@ services:
 
 before_install:
   - docker build -t saymagic/pic_routing .
-  - docker run -d -p 127.0.0.1:80:3000 aymagic/pic_routing
+  - docker run -d -p 127.0.0.1:80:3000 saymagic/pic_routing
   - docker ps -a
 
 script:
