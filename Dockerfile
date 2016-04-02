@@ -21,7 +21,7 @@ RUN apt-get update && \
 
 COPY ./nginx_config /etc/nginx/conf.d
 
-EXPOSE 80 3000
+EXPOSE 3000
 
-CMD nginx && python /usr/local/app/getlink/myapp.py
+CMD  python /usr/local/app/getlink/myapp.py
 
