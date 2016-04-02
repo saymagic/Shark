@@ -18,7 +18,7 @@ RUN apt-get update && \
     && apt-get autoclean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
     && pip install -r requirements.txt \
-    && git clone https://git.coding.net/saymagic/getlink.git
+    && git clone https://saymagic@bitbucket.org/saymagic/getlink.git
 
 COPY ./nginx_config /etc/nginx/conf.d
 
