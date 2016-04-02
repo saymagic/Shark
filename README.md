@@ -1,3 +1,8 @@
+
+
+![](https://travis-ci.org/saymagic/pic_routing.svg?branch=master)
+
+
 > This is a project to build free picture server with [qiniu](https://portal.qiniu.com/signup?code=3lcny0wg8l4k2) and [Daocloud](https://www.daocloud.io/) .
 
 * *Clone* this project to your github
@@ -48,4 +53,3 @@ saymagic.dev@gmail.com
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
