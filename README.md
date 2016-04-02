@@ -1,32 +1,31 @@
 > This is a project to build free picture server with [qiniu](https://portal.qiniu.com/signup?code=3lcny0wg8l4k2) and [Daocloud](https://www.daocloud.io/) .
 
-* *clone* this project to your github
+* *Clone* this project to your github
 
 
-* goto  [Daocloud](https://www.daocloud.io/) and create new project
+* Goto  [Daocloud](https://www.daocloud.io/) and create new project
 
   ![](http://cdn.saymagic.cn/o_1afbdndel1upnot21i5rnqm19jje.png)
 
 
-* choose pic_routing and build
+* Choose pic_routing and build
 
   ![](http://cdn.saymagic.cn/o_1afbdoulg3gh17q8lqd2n81vmq9.png)
 
-* when everything done,  click the *deploy the latest version*  button:
+* When everything was done,  click the *deploy the latest version*  button:
 
 ![](http://cdn.saymagic.cn/o_1afbdma55k2u106t1ak91u1c1q9o9.png)
 
 
 
-* add your own environment variables to your server :
+* Add your own environment variables to your server :
 
   (ACCESS_KEY, SECRET_KEY,BUCKET_DOMAIN,BUCKET_NAME )
 
   ![](http://cdn.saymagic.cn/o_1afbdtuun12gp15fm1p42fo31o15e.png)
 
 
-
-* done , view your domain name and open it:
+* Done , view your domain name and open it:
 
   ![](http://cdn.saymagic.cn/o_1afbe259n15991rjsoh216sc16qq9.png)
 
